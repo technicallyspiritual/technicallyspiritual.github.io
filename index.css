@@ -95,7 +95,7 @@ body {
 	/*media queries and mobile styling below*/
 	@media only screen and (max-width: 800px) {
 		body {
-			background: linear-gradient(to top, rgba(160, 9, 64), rgba(255, 20, 106));
+			background: linear-gradient(to top, #a00940, #ff146a);
 		}
 		#crystal {
 			font-size: 2.5em;
