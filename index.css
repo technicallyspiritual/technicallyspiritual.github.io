@@ -90,17 +90,21 @@ body {
 		opacity: 0.5;
 	}
 	#facebook, #instagram, #github, #linkedin, #fiddle {
-		width: 30px;
+		width: 50px;
 		padding-right: 5px;
+		filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .5));
 	}
 	/*media queries and mobile styling below*/
+	@media only screen and (max-width: 1000px) {
+		body {
+			background-size: cover;
+		}
+	}
 	@media only screen and (max-width: 800px) {
 		body {
-			background: none;
+			background-size: cover;
 		}
 		h1, h2 {
-			color: #ff146a;
-			text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 		}
 		#crystal {
 			font-size: 2.5em;
