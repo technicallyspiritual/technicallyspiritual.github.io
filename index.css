@@ -95,7 +95,7 @@ body {
 	/*media queries and mobile styling below*/
 	@media only screen and (max-width: 800px) {
 		body {
-			background: linear-gradient(to top, #a00940, #ff146a);
+			background: #ff146a;
 		}
 		#crystal {
 			font-size: 2.5em;
@@ -104,6 +104,6 @@ body {
 			font-size: 1.5em;
 		}
 		#facebook, #instagram, #github, #linkedin, #fiddle {
-			width: 50px;
+			width: 100px;
 		}
 	}
