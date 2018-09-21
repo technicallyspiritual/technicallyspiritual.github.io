@@ -93,7 +93,7 @@ body {
 		padding-right: 5px;
 	}
 	/*media queries and mobile styling below*/
-	@media only screen and (max-width: 500px) {
+	@media only screen and (max-width: 800px) {
 		body {
 			background: linear-gradient(to top, rgba(160, 9, 64), rgba(255, 20, 106));
 		}
