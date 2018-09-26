@@ -76,7 +76,14 @@ body {
 		grid-row: 1/2;
 		margin: 370px auto 0 auto;
 	}
-
+	a {
+		text-decoration: none;
+		color: rgba(255, 255, 255, 0.7);
+	}
+	a:hover {
+		color: #fff;
+		opacity: 1;
+	}
 	#crystal, #frontend {
 		padding-bottom: 10px;
 			text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
@@ -87,12 +94,13 @@ body {
 	}
 	#frontend {
 		font-size: 2.5em;
-		opacity: 0.5;
+		padding: 10px 0;
 	}
 	#facebook, #instagram, #github, #linkedin, #fiddle {
 		width: 50px;
 		padding-right: 5px;
 		filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .5));
+		padding-top: 10px;
 	}
 	/*media queries and mobile styling below*/
 	@media only screen and (max-width: 1000px) {
