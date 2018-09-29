@@ -230,6 +230,9 @@ footer p {
 }
 /*mobile styling*/
 @media only screen and (max-width: 1240px) {
+	body {
+		background-color: #ff146a;
+	}
 	#about img {
 	  width: 250px;
 	  padding-left: 10px;
