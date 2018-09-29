@@ -49,8 +49,7 @@ table {
 }
 /*begin styling*/
 body {
-	background:
-	linear-gradient(to top, rgba(160, 9, 64), rgba(255, 20, 106));
+	background-color: #ff146a;
 	font-family: 'Quicksand', Helvetica, sans-serif;
 	color: #fff;
 	display: grid;
@@ -230,9 +229,6 @@ footer p {
 }
 /*mobile styling*/
 @media only screen and (max-width: 1240px) {
-	body {
-		background-color: #ff146a;
-	}
 	#about img {
 	  width: 250px;
 	  padding-left: 10px;
