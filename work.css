@@ -185,6 +185,11 @@ body {
   text-decoration: none;
   opacity: 1;
 }
+#lhl-logo {
+	width: 500px;
+	display: block;
+	margin: 75px auto;
+}
 .links {
   text-align: center;
   margin: auto;
@@ -237,6 +242,24 @@ body {
   margin-left: 450px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
 }
+.languages {
+	margin: 20px auto 20px 350px;
+	grid-column: 1;
+}
+.languages img {
+	display: inline;
+}
+#css, #php, #html, #python, #js {
+	width: 100px;
+	padding: 20px;
+	margin: auto;
+}
+#php, #css {
+	max-width: 70px;
+}
+#python {
+	max-width: 75px;
+}
 footer {
   height: 100px;
 }
@@ -259,6 +282,9 @@ footer p {
 	  margin-left: 350px;
 	  text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
 	}
+	.languages {
+		margin: 20px auto 20px 300px;
+	}
 	.social {
 	  grid-column: 1;
 	  margin-left: 350px;
@@ -268,6 +294,9 @@ footer p {
 @media only screen and (max-width: 1000px) {
 	#skills li {
 		margin-left: 250px;
+	}
+	.languages {
+		margin: 20px auto 20px 200px;
 	}
 	.social {
 		margin-left: 250px;
@@ -282,6 +311,9 @@ footer p {
 @media only screen and (max-width: 1000px) {
 	#skills li {
 		margin-left: 150px;
+	}
+	.languages {
+		margin: 20px auto 20px 100px;
 	}
 	.social {
 		margin-left: 150px;
