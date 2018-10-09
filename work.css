@@ -190,6 +190,16 @@ body {
 	display: block;
 	margin: 75px auto;
 }
+#splashimg, #homeimg {
+  width: 500px;
+  margin: 75px auto;
+	display: block;
+}
+#beholdhome, #beholdsplash {
+  text-decoration: none;
+  opacity: 1;
+}
+
 .links {
   text-align: center;
   margin: auto;
