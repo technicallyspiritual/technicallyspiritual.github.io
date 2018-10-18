@@ -48,6 +48,14 @@ table {
 	border-spacing: 0;
 }
 /*begin styling*/
+
+@font-face {
+    font-family: 'nickainleynormal';
+    src: url('fonts/nickainley-normal-webfont.woff2') format('woff2'),
+         url('fonts/nickainley-normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
 	background:
 	linear-gradient(to top, rgba(160, 9, 64, 0.9), rgba(255, 20, 106, 0.3)),
@@ -89,7 +97,8 @@ body {
 			text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 	}
 	#crystal {
-		font-size: 3.5em;
+		font-size: 3.8em;
+		font-family: 'nickainleynormal', Helvetica, sans-serif;
 
 	}
 	#frontend {
